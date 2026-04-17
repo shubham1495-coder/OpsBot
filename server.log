@@ -1,0 +1,50 @@
+[2025-06-01 08:00:01] INFO User admin logged in successfully from 192.168.1.10
+[2025-06-01 08:01:14] INFO Scheduled backup started
+[2025-06-01 08:02:30] ERROR Disk I/O failure on /dev/sdb1 - read timeout
+[2025-06-01 08:03:05] INFO CPU usage at 45% - normal
+[2025-06-01 08:04:22] FAILED LOGIN Attempt for user root from IP 203.0.113.42
+[2025-06-01 08:05:10] INFO Memory usage at 60% - normal
+[2025-06-01 08:06:55] CRITICAL Database connection pool exhausted - service degraded
+[2025-06-01 08:07:30] INFO Scheduled log rotation completed
+[2025-06-01 08:08:45] ERROR Config file /etc/app/config.yml not found
+[2025-06-01 08:09:12] INFO New user session started: session_id=A1B2C3
+[2025-06-01 08:10:00] FAILED LOGIN Attempt for user admin from IP 198.51.100.7
+[2025-06-01 08:11:33] INFO DNS resolution successful for api.internal
+[2025-06-01 08:12:44] ERROR HTTP 500 Internal Server Error on /api/v1/users
+[2025-06-01 08:13:59] INFO SSL certificate valid for 45 more days
+[2025-06-01 08:14:20] FAILED LOGIN Attempt for user deploy from IP 203.0.113.99
+[2025-06-01 08:15:01] INFO Ping to gateway 192.168.1.1 - OK
+[2025-06-01 08:16:37] CRITICAL Kernel panic detected - system may be unstable
+[2025-06-01 08:17:45] INFO Firewall rules updated successfully
+[2025-06-01 08:18:55] ERROR NTP sync failed - time drift detected
+[2025-06-01 08:19:10] INFO User guest logged out
+[2025-06-01 08:20:00] FAILED LOGIN Attempt for user root from IP 10.0.0.254
+[2025-06-01 08:21:14] INFO Health check passed for service web-server
+[2025-06-01 08:22:30] ERROR SMTP relay rejected outbound email - quota exceeded
+[2025-06-01 08:23:05] INFO Cron job /scripts/cleanup.sh executed successfully
+[2025-06-01 08:24:22] CRITICAL RAID array degraded - drive /dev/sdc missing
+[2025-06-01 08:25:10] INFO Package update cache refreshed
+[2025-06-01 08:26:55] FAILED LOGIN Attempt for user oracle from IP 172.16.254.3
+[2025-06-01 08:27:30] INFO User devops logged in successfully from 192.168.1.55
+[2025-06-01 08:28:45] ERROR Swap space usage exceeded 90%
+[2025-06-01 08:29:12] INFO Logstash pipeline running normally
+[2025-06-01 08:30:00] FAILED LOGIN Attempt for user postgres from IP 203.0.113.15
+[2025-06-01 08:31:33] INFO API response time 120ms - within threshold
+[2025-06-01 08:32:44] ERROR Unable to write to /var/log/app.log - permission denied
+[2025-06-01 08:33:59] INFO Network interface eth0 UP
+[2025-06-01 08:34:20] FAILED LOGIN Attempt for user admin from IP 185.220.101.5
+[2025-06-01 08:35:01] INFO Elasticsearch index optimized
+[2025-06-01 08:36:37] CRITICAL Out of memory - OOM Killer activated, process nginx terminated
+[2025-06-01 08:37:45] INFO Redis cache hit ratio 98.5%
+[2025-06-01 08:38:55] ERROR SSL handshake failed for client 203.0.113.77
+[2025-06-01 08:39:10] INFO Backup completed successfully - size 2.3GB
+[2025-06-01 08:40:00] FAILED LOGIN Attempt for user ubuntu from IP 45.33.32.156
+[2025-06-01 08:41:14] INFO Docker container web_app_1 restarted normally
+[2025-06-01 08:42:30] ERROR Kubernetes pod crashloop detected: pod/api-deploy-7d9f
+[2025-06-01 08:43:05] INFO Load balancer health check - all nodes active
+[2025-06-01 08:44:22] CRITICAL Unhandled exception in payment-service: NullPointerException
+[2025-06-01 08:45:10] INFO Scheduled database vacuum completed
+[2025-06-01 08:46:55] FAILED LOGIN Attempt for user ftp from IP 192.0.2.50
+[2025-06-01 08:47:30] INFO SSH session opened for user sysadmin from 10.0.0.5
+[2025-06-01 08:48:45] ERROR PostgreSQL max connections reached (200/200)
+[2025-06-01 08:49:59] INFO Monitoring agent heartbeat OK
