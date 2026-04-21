@@ -64,7 +64,7 @@ def write_alert_report(alert_lines, frequency, output_path):
 
     generated_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
-    with open(output_path, "w") as f:
+   with open(output_path, "w", encoding="utf-8") as f:
 
         # ── Header ──────────────────────────────────────────
         f.write("=" * 62 + "\n")
